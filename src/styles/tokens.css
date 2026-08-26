@@ -1,0 +1,123 @@
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --bg: #0e1014;
+  --bg-elev: #14171d;
+  --surface: #171b22;
+  --surface-2: #1e232c;
+  --surface-3: #262c37;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+
+  /* Text */
+  --text: #eef1f6;
+  --text-muted: #9aa2b1;
+  --text-faint: #6b7280;
+
+  /* Accent */
+  --accent: #6d78ff;
+  --accent-hover: #7f89ff;
+  --accent-soft: rgba(109, 120, 255, 0.16);
+  --on-accent: #ffffff;
+
+  /* Semantic hues */
+  --violet: #8b7cff;
+  --blue: #57a0ff;
+  --green: #34d399;
+  --amber: #f7b955;
+  --rose: #fb6f92;
+  --cyan: #38bdf8;
+  --orange: #fb923c;
+  --slate: #94a3b8;
+
+  --danger: #f2617f;
+  --success: #34d399;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.55);
+  --shadow-fab: 0 10px 28px rgba(109, 120, 255, 0.5);
+
+  --scrim: rgba(0, 0, 0, 0.55);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: #f4f5f7;
+  --bg-elev: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f3f4f7;
+  --surface-3: #e9ebf0;
+  --border: rgba(17, 24, 39, 0.09);
+  --border-strong: rgba(17, 24, 39, 0.16);
+
+  --text: #14181f;
+  --text-muted: #5c6472;
+  --text-faint: #8b93a1;
+
+  --accent: #5762f0;
+  --accent-hover: #4a55e6;
+  --accent-soft: rgba(87, 98, 240, 0.12);
+  --on-accent: #ffffff;
+
+  --violet: #7a5cf0;
+  --blue: #2f7ff0;
+  --green: #12a06a;
+  --amber: #d9891f;
+  --rose: #e14e73;
+  --cyan: #0e9fd6;
+  --orange: #e2761f;
+  --slate: #64748b;
+
+  --danger: #e14e73;
+  --success: #12a06a;
+
+  --shadow-sm: 0 1px 2px rgba(17, 24, 39, 0.08);
+  --shadow-md: 0 8px 24px rgba(17, 24, 39, 0.1);
+  --shadow-lg: 0 18px 46px rgba(17, 24, 39, 0.16);
+  --shadow-fab: 0 12px 26px rgba(87, 98, 240, 0.4);
+
+  --scrim: rgba(17, 24, 39, 0.4);
+}
+
+:root {
+  /* Spacing */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+
+  /* Radius */
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 18px;
+  --r-xl: 24px;
+  --r-pill: 999px;
+
+  /* Layout */
+  --app-max: 460px;
+  --nav-h: 66px;
+  --header-h: 56px;
+
+  /* Type */
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Map a hue name to a color via var(--hue-<name>) helpers used inline. */
+.hue-violet { --hue: var(--violet); }
+.hue-blue { --hue: var(--blue); }
+.hue-green { --hue: var(--green); }
+.hue-amber { --hue: var(--amber); }
+.hue-rose { --hue: var(--rose); }
+.hue-cyan { --hue: var(--cyan); }
+.hue-orange { --hue: var(--orange); }
+.hue-slate { --hue: var(--slate); }
